@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000100101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npnxnanbsnfns00000100101" font="Open Sans" controllayout="npnxnanbsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="pxabnsnfns00000100101" font="Open Sans" controllayout="pxabnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="npxnabnsnfns00000100101" font="Open Sans" controllayout="npxnabnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="npnxnanbnsnfns00000100101" font="Open Sans" controllayout="npnxnanbnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="pxabnsnfns00000100100" font="Open Sans" controllayout="pxabnsnfns00000100100" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -19,7 +19,7 @@
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -28,7 +28,7 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="true" group="linkright" />
-              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="outline" value="false" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -82,7 +82,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001100101">
+    <control_layout name="npnxnanbsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -98,14 +98,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100101">
+    <control_layout name="pxabnsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -121,14 +121,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001100101">
+    <control_layout name="npxnabnsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -144,14 +144,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100101">
+    <control_layout name="npnxnanbnsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -167,14 +167,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100100">
+    <control_layout name="pxabnsnfns00000100100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -190,7 +190,7 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -199,7 +199,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001100101">
+    <colorscheme name="pxabnsnfns00000100101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1116,62 +1116,62 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001100101">
+    <string_table name="pxabnsnfns00000100101">
       <string id="acc_active">active</string>
-      <string id="acc_closed_captions">Closed captions.</string>
-      <string id="acc_definition">definition</string>
-      <string id="acc_finish">finish</string>
-      <string id="acc_next">next</string>
-      <string id="acc_pause">pause</string>
-      <string id="acc_play">play</string>
-      <string id="acc_previous">previous</string>
-      <string id="acc_replay">replay</string>
-      <string id="acc_resources">resources</string>
-      <string id="acc_search_input">search</string>
-      <string id="acc_skipnavigation">Back to top</string>
-      <string id="acc_submit">submit</string>
-      <string id="acc_submitall">submit all</string>
-      <string id="acc_volume">volume</string>
-      <string id="action">Action</string>
-      <string id="bio">Bio</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
-      <string id="closed_captions">Captions</string>
+      <string id="acc_closed_captions">Closed captions.</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
-      <string id="definition">Definition</string>
-      <string id="desktop_start">Start Course</string>
-      <string id="disabled_orientation">Please rotate your device</string>
       <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
-      <string id="mobile_start">Start Course</string>
-      <string id="more_info">More info</string>
-      <string id="next">NEXT</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
       <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
-      <string id="search_toggle">Search</string>
-      <string id="send_an_email">Send an email</string>
-      <string id="shortcut">Shortcut</string>
-      <string id="shortcuthelp">List keyboard shortcuts</string>
-      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
-      <string id="submit">SUBMIT</string>
       <string id="submitall">SUBMIT ALL</string>
-      <string id="terms">Terms</string>
-      <string id="togglezoom">Switch zoom modes</string>
-      <string id="transcript">Notes</string>
-      <string id="transcript_chk">Notes</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
   <fonts>
